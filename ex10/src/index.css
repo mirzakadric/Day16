@@ -1,0 +1,31 @@
+#navbar {
+    position: absolute;
+    width: fit-content;
+    left: 0;
+}
+#main-doc {
+    position: absolute;
+    left: 40%;
+}
+ul {
+    list-style-type: none;
+}
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    position:static;
+}
+.nav-links {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: fit-content;
+}
+.nav-links:hover {
+    background-color: #555;
+    color: white;
+}
